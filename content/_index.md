@@ -36,57 +36,69 @@ outputs = ["Reveal"]
 {{% /section %}}
 
 ---
-
 {{% section %}}
 
-{{< slide id="about-me" >}}
+{{< slide id="agents-history" >}}
 
-# About Me
+# Agents Are Not New
+
 <br>
 
-{{% multicol %}}
+## Agents predate modern agentic AI by decades
+[The Agents Journey](https://doi.org/10.1007/978-3-032-22940-3) -- Twenty-Five Years of Multi-agent Systems (2026)
+
+
+<br>
+
+{{% multicol class="multicol-centered"%}}
 
 {{% col %}}
 
-{{< image src="./images/matteo.jpeg" alt="Matteo Magnini" width="100%" max-h="50vh" >}}
+### Historical roots
+- Distributed Systems
+- Intelligent Agents
+- Multi-Agent Systems
+- Robotics and Control Systems
+- Simulation
 
 {{% /col %}}
 
 {{% col %}}
 
-## Matteo Magnini
-- Postdoctoral Researcher DCS - ICR group
-- PhD in CSE at University of Bologna
+### Long-standing research themes
+- coordination
+- negotiation
+- planning
+- cooperation
+- autonomy
 
-<br>
-<br>
+{{% /col %}}
 
-## Main Research Areas
+{{% /multicol %}}
+
+---
+
+## Today we are witnessing:
+
+{{% multicol class="multicol-centered"%}}
+
+{{% col %}}
+
+### New paradigms/technologies
 - Neuro-Symbolic AI
-  - Symbolic Knowledge Extraction
-  - Symbolic Knowledge Injection
-- Fairness in AI
-- Application of Large Language Models
-  - Healthcare 
+- Large Language Models
+- Agentic AI frameworks
+- Swarm intelligence/robotics
 
 {{% /col %}}
 
 {{% col %}}
 
-## Current Focus
-- Normative and Trustworthy AI
-  - Norm mining and translation
-- Multi-agent Systems (2.0)
-  - Automation of complex workflows
-
-<br>
-<br>
-
-## Perspective
-- Ensuring safety and trustworthiness
-  - especially when relying on LLMs
-- Bridging Formal reasoning and LLMs
-- Embodied agents in the real world
+### Hot topics
+- Normative AI
+- Agentic Automation
+- AI safety and trustworthiness
+- AI governance and regulation
 
 {{% /col %}}
 
