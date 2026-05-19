@@ -6,7 +6,8 @@ outputs = ["Reveal"]
 
 {{% section %}}
 
-# Agentic AI: Research Overview
+# The New Wave of Agentic AI:
+## Main Challenges and Research Directions
 
 <span class="hint">(last built on: {{< today >}})</span>
 
@@ -17,8 +18,8 @@ outputs = ["Reveal"]
 <br> Department of Computer Science
 <br> University of Luxembourg
 
-<br>ICR–CLAIM–TAI Workshop
-<br>13th May 2026, Luxembourg
+<br>ZLAIRE Workshop
+<br>28th May 2026, Zhejiang University, Hangzhou
 
 <br>
 
