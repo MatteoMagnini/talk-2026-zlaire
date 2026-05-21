@@ -1,6 +1,6 @@
 +++
-title = "Research Overview"
-description = "Neuro-Symbolic AI, Normative Systems, and Applied AI"
+title = "The New Wave of Agentic AI"
+description = "Main Challenges and Research Directions"
 outputs = ["Reveal"]
 +++
 
@@ -78,7 +78,7 @@ outputs = ["Reveal"]
 
 ---
 
-## Today we are witnessing:
+## Today we are witnessing
 
 {{% multicol class="multicol-centered"%}}
 
@@ -103,92 +103,30 @@ outputs = ["Reveal"]
 {{% /col %}}
 
 {{% /multicol %}}
-
-{{% /section %}}
-
+ 
 ---
 
-{{% section %}}
-
-{{< slide id="projects" >}}
-
-# Projects
+## Trends
 <br>
 
-{{% multicol %}}
+{{% multicol class="multicol-centered"%}}
 
 {{% col %}}
 
-## DJ4ME
-- FNR - Ongoing
-- [icr.uni.lu/dj4me/index.html](https://icr.uni.lu/dj4me/index.html)
-- Key Ideas:
-  - stakeholder-driven
-  - avatars
-  - norms
-  - argumentation
+### Pervasive AI
+- AI is everywhere
+- Everyone is using LLMs
 
-
-<br>
-<br>
-
-## AI4Kids
-- FNR - Ongoing
-- [www.fnr.lu/results-hpc-ai-bridges-joint-fnr-meco-luxinnovation-call](https://www.fnr.lu/results-hpc-ai-bridges-joint-fnr-meco-luxinnovation-call/#:~:text=1%2C423%20million%20euros-,AI4Kids,-This%20joint%20project)
-- Key Ideas:
-  - child-friendly AI
-  - QTrobot
-  - HPC simulations
-
+{{< image src="./images/estimated-share-people-generative-ai.png" alt="Estimated share of people using generative AI" width="90%" >}}
 
 {{% /col %}}
 {{% col %}}
 
-## VERITAS
-- EU - Submitted
-- Key Ideas:
-  - trustworthy AI agents
-  - formal verification
-  - reflective halt mechanisms
-  - uncertainty-aware reasoning
-  - human oversight by design
+### Embodied Agents
+- Not just chatbots or digital agents
+- Physical robots, drones, vehicles
 
-<br>
-<br>
-
-## EUtomate
-- EU - Submitted
-- Key Ideas:
-  - autonomous workflow automation
-  - neuro-symbolic agents
-  - normative governance
-  - human-in-the-loop
-  - multi-agent coordination
-
-{{% /col %}}
-{{% col %}}
-
-## ARLEX
-- FNR - Submitted
-- ["You are Orthos"](https://zenodo.org/records/19311284)
-- Key Ideas:
-  - Digital Service Act Art. 21
-  - Out-of-court dispute settlement
-  - Human-rights
-  - Rulings supporting adjudicators
-
-<br>
-<br>
-
-## RAISE
-- EU - Submitted
-- Key Ideas:
-  - European Virtual AI Institute
-  - Frontier AI Moonshot
-  - Collaborative Research Pooling
-  - AI Talent & Community Building
-  - Long-term Sustainability & Governance
-
+{{< image src="./images/self-driving-bus-belval.jpeg" alt="Self-driving bus in Belval" width="90%" >}}
 
 {{% /col %}}
 
