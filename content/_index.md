@@ -227,6 +227,216 @@ It is __autonomous__, (possibly) self-sufficient, __proactive__, and (possibly) 
 {{< slide id="why-defensible" >}}
 
 # Why defensible?
+
+<!-- TODO: talk about the need of norms and ethics. Also talk about the ongoing project DJ4ME and AI4Kids. -->
+
+## Why are norms necessary?
+
+{{% multicol %}}
+
+{{% col %}}
+
+Modern embodied agents will increasingly operate in shared human environments:
+- schools
+- hospitals
+- public transportation
+- homes
+- workplaces
+
+{{% /col %}}
+
+{{% col %}}
+
+In these contexts, __pure optimization__ is not enough.
+
+An agent should not only ask:
+- "What can I do?"
+
+but also:
+- "What should I do?"
+- "What am I allowed to do?"
+- "How should I behave with humans?"
+
+{{% /col %}}
+
+{{% col %}}
+
+This requires explicit representations of:
+
+- permissions
+- obligations
+- prohibitions
+- preferences
+- social conventions
+- ethical principles
+
+{{% /col %}}
+
+{{% /multicol %}}
+
+---
+
+## From rule-following to defensibility
+
+{{% multicol class="multicol-centered"%}}
+
+{{% col %}}
+
+A defensible agent is not simply:
+- compliant
+- accurate
+- safe
+
+{{% /col %}}
+
+{{% col %}}
+
+It must also be able to:
+- justify its decisions
+- expose the reasoning process
+- support contestability
+- provide explanations understandable by humans
+
+{{% /col %}}
+
+{{% /multicol %}}
+
+<br>
+<br>
+
+<div style="text-align:center; font-size:1.2em;">
+Effective AI → Responsible AI → Defensible AI
+</div>
+
+---
+
+## DJ4ME
+
+### A DJ for Machine Ethics: the Dialogue Jiminy
+
+{{< image src="./images/dj4me.png" alt="DJ4ME" width="80%" >}}
+
+{{% multicol class="multicol-centered"%}}
+
+{{% col %}}
+
+Different stakeholders may have:
+- different objectives
+- different values
+- different expectations
+
+{{% /col %}}
+
+{{% col %}}
+
+Examples:
+- final users
+- providers
+- institutions/regulators
+- domain experts
+
+{{% /col %}}
+
+{{% /multicol %}}
+
+---
+
+## Conflict resolution
+
+Using the __Jiminy__ framework ([The Jiminy Advisor: Moral Agreements Among Stakeholders Based on Norms and Argumentation](https://doi.org/10.1613/jair.1.14368)).
+
+{{% multicol %}}
+
+{{% col %}}
+
+Each stakeholder is modeled as a __normative system__:
+- obligations
+- permissions
+- prohibitions
+- contextual preferences
+
+These normative systems are then used as sources of __arguments__.
+
+{{% /col %}}
+
+{{% col %}}
+
+Instead of relying on majority voting or fixed priorities,
+Jiminy tries to reach a __moral agreement__ among stakeholders.
+
+The framework resolves dilemmas through:
+- interactions between arguments
+- attacks and defenses
+- argument acceptability semantics
+
+{{% /col %}}
+
+{{% /multicol %}}
+
+---
+
+## Moral agreements
+
+Jiminy proposes three complementary mechanisms:
+
+1. __Argument interaction__
+   - conflicts may already be resolved through the structure of the arguments themselves
+
+2. __Normative combination__
+   - stakeholders' normative systems can be combined
+   - new arguments may emerge from the combined knowledge
+
+3. __Context-sensitive priorities__
+   - only when necessary, contextual rules determine which stakeholder takes precedence
+
+<br>
+
+At the abstract level, these mechanisms correspond to:
+- adding arguments
+- adding attacks
+- revising attacks
+
+within the argumentation framework.
+
+---
+
+## Explainability
+
+{{% multicol class="multicol-centered"%}}
+
+{{% col %}}
+
+### Resolving conflicts is not enough
+
+The system must also explain:
+- why a decision was taken
+- which norms were considered
+- which arguments prevailed
+- why alternative actions were rejected
+
+{{% /col %}}
+
+{{% col %}}
+
+Argumentation naturally supports explainability,
+because decisions emerge from explicit reasoning structures.
+
+Therefore, DJ4ME includes an additional agent dedicated to making decisions:
+- __auditable__
+- inspectable
+- contestable
+- __publicly explainable__
+
+{{% /col %}}
+
+{{% /multicol %}}
+
+---
+
+# AI4Kids
+
+TODO: talk about the AI4Kids project.
+
 {{% /section %}}
 
 ---
@@ -303,5 +513,7 @@ Sensors and actuators are not part of their body, but just __external devices__ 
 {{< slide id="why-agents" >}}
 
 # Why agents?
+
+TODO: quite trivial, but at least one or two slides are needed. In particular regarding the kind of agents (mono-task, multi-task, general-purpose, single-agent, multi-agent, swarm).
 
 {{% /section %}}
