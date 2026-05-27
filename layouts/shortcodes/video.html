@@ -1,0 +1,25 @@
+{{ $src := .Get "src" }}
+{{ $poster := .Get "poster" | default "" }}
+{{ $maxw := .Get "max-w" | default "95vw"}}
+{{ $maxh := .Get "max-h" | default "80vh"}}
+{{ $morestyle := .Get "morestyle" }}
+
+<video
+    {{ with .Get "width" }}width="{{ . }}"{{ end }}
+    {{ with .Get "height" }}height="{{ . }}"{{ end }}
+    style="
+        max-width: {{ $maxw }};
+        max-height: {{ $maxh }};
+        object-fit: contain;
+        {{ $morestyle }}
+    "
+    controls
+    {{ with $poster }}poster="{{ . }}"{{ end }}
+    {{ with .Get "autoplay" }}autoplay{{ end }}
+    {{ with .Get "loop" }}loop{{ end }}
+    {{ with .Get "muted" }}muted{{ end }}
+    {{ with .Get "playsinline" }}playsinline{{ end }}
+>
+    <source src="{{ $src }}">
+    Your browser does not support the video tag.
+</video>

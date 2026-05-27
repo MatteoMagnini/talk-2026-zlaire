@@ -228,20 +228,16 @@ It is __autonomous__, (possibly) self-sufficient, __proactive__, and (possibly) 
 
 # Why defensible?
 
-<!-- TODO: talk about the need of norms and ethics. Also talk about the ongoing project DJ4ME and AI4Kids. -->
-
-## Why are norms necessary?
-
 {{% multicol %}}
 
 {{% col %}}
 
 Modern embodied agents will increasingly operate in shared human environments:
-- schools
-- hospitals
-- public transportation
-- homes
-- workplaces
+- Schools
+- Hospitals
+- Public transportation
+- Homes
+- Workplaces
 
 {{% /col %}}
 
@@ -263,12 +259,12 @@ but also:
 
 This requires explicit representations of:
 
-- permissions
-- obligations
-- prohibitions
-- preferences
-- social conventions
-- ethical principles
+- Permissions
+- Obligations
+- Prohibitions
+- Preferences
+- Social conventions
+- Ethical principles
 
 {{% /col %}}
 
@@ -283,19 +279,19 @@ This requires explicit representations of:
 {{% col %}}
 
 A defensible agent is not simply:
-- compliant
+- __compliant__
 - accurate
-- safe
+- __safe__
 
 {{% /col %}}
 
 {{% col %}}
 
 It must also be able to:
-- justify its decisions
+- __justify__ its decisions
 - expose the reasoning process
 - support contestability
-- provide explanations understandable by humans
+- provide __explanations__ understandable by humans
 
 {{% /col %}}
 
@@ -321,8 +317,8 @@ Effective AI → Responsible AI → Defensible AI
 {{% col %}}
 
 Different stakeholders may have:
-- different objectives
-- different values
+- __different objectives__
+- __different values__
 - different expectations
 
 {{% /col %}}
@@ -330,7 +326,7 @@ Different stakeholders may have:
 {{% col %}}
 
 Examples:
-- final users
+- final __users__
 - providers
 - institutions/regulators
 - domain experts
@@ -535,62 +531,114 @@ Research challenges:
 
 # Why embodied?
 
-Purely __digital agents__, such as chatbots, have __great limitations__.
+<br>
+
+Purely __digital agents__, such as chatbots, have many limitations.
 
 The knowledge at their disposal is obtained by training on huge amount of text.
 
-Interaction is just a stochastic process of predicting the next token.
+Interaction is often reduced to a stochastic process of predicting the next token.
 
-<br>
-
-Chatbots (usually) do not have a __model of the world__, their "world" is just the conversation.
-
-Other digital agents can receive data from the real world and maybe even have control of some actuators, but they are not "embodied".
-
-Their sensing and actions are limited to a very specific scope.
-
-Sensors and actuators are not part of their body, but just __external devices__ that they can use.
-
----
-
-<!--
-## _The best model of the world is the world itself_
-
-{{<image src="./images/models-wrong-useful.avif" alt="All models are wrong, but some are useful" width="80%" >}}
--->
-
-## Which kind of embodied agents?
-
-{{% multicol %}}
+{{% multicol class="multicol-centered"%}}
 
 {{% col %}}
 
-{{< image src="./images/coffee-robot.png" alt="Coffee robot" width="90%" >}}
+Chatbots __do not directly experience__ the world.
+Their knowledge is mediated through:
+- documents
+- conversations
+- descriptions written by humans
 
 {{% /col %}}
 
 {{% col %}}
 
-{{< image src="./images/food-delivery-robot.png" alt="Food delivery robot" width="90%" >}}
-
-{{% /col %}}
-
-{{% col %}}
-
-{{< image src="./images/qtrobot.webp" alt="QTrobot" width="90%" >}}
-
-{{% /col %}}
-
-{{% col %}}
-
-{{< image src="./images/sonny.webp" alt="Sonny robot" width="90%" >}}
+As a consequence:
+- their internal models may contain __biases__
+- information may be incomplete or __outdated__
+- grounding in physical reality is limited
 
 {{% /col %}}
 
 {{% /multicol %}}
 
+---
 
+## Digital agents vs embodied agents
 
+<br>
+
+{{% multicol %}}
+
+{{% col %}}
+
+### Digital agents
+- Mainly operate in __virtual environments__
+- Interact through text or software APIs
+- Can use software tools
+- __No/Limited physical awareness__
+- __No direct interaction with the world__
+
+{{% /col %}}
+
+{{% col %}}
+
+### Embodied agents
+- __Perceive the physical world directly__
+- __Interact__ through sensors and actuators
+- Learn from situated interaction
+- __Affect real environments and humans__
+- Must reason about __safety__ and __uncertainty__
+
+{{% /col %}}
+
+{{% col %}}
+
+### This introduces new challenges
+- __Real-time decision-making__
+- Uncertainty and partial observability
+- __Safety-critical behavior__
+- Social interaction
+- Accountability
+
+{{% /col %}}
+
+{{% /multicol %}}
+
+---
+
+## Which kind of embodied agents?
+
+<br>
+
+{{% multicol class="multicol-centered"%}}
+
+{{% col %}}
+
+### Controlled environments
+- Manufacturing robots
+- Warehouse automation
+- Cleaning robots
+- Restaurant/service robotics
+
+These systems operate in relatively predictable environments and focus on efficiency, precision, and repeatability.
+
+{{% /col %}}
+
+{{% col %}}
+
+### Human-centered environments
+- Caregiving robots
+- Educational robots
+- Assistive systems
+- Housekeepers
+- Collaborative robots
+
+These agents must interact safely and naturally with humans in dynamic social contexts.
+
+{{% /col %}}
+
+{{% /multicol %}}
 
 {{% /section %}}
 
@@ -602,6 +650,64 @@ Sensors and actuators are not part of their body, but just __external devices__ 
 
 # Why agents?
 
-TODO: quite trivial, but at least one or two slides are needed. In particular regarding the kind of agents (mono-task, multi-task, general-purpose, single-agent, multi-agent, swarm).
+We all know the reasons why we need __agents__ and not just __passive tools__.
+
+{{% multicol class="multicol-centered"%}}
+
+{{% col %}}
+
+### By capability
+- Mono-task agents
+- Multi-task agents
+- General-purpose agents
+
+{{% /col %}}
+
+{{% col %}}
+
+### By organization
+- Single-agent systems
+- Multi-agent systems
+- Swarm systems
+
+{{% /col %}}
+
+{{% /multicol %}}
+
+___
+
+## Collection of robots I saw in Hangzhou
+
+{{% multicol %}}
+
+{{% col %}}
+
+{{< image src="./images/coffee-robot.png" alt="Coffee robot" weight="60%" >}}
+
+
+{{< image src="./images/food-delivery-robot.png" alt="Food delivery robot" weight="60%" >}}
+
+{{% /col %}}
+
+{{% col %}}
+
+{{< image src="./images/agriculture-robot.png" alt="Agriculture robot" weight="60%" >}}
+
+
+{{< image src="./images/dog-robot.png" alt="Dog robot" weight="60%" >}}
+
+{{% /col %}}
+
+{{% col %}}
+
+{{< image src="./images/space-explorer.jpg" alt="Space explorer robot" weight="60%" >}}
+
+
+{{< video src="./videos/barman-robot.MOV" alt="Barman robot" weight="60%" autoplay="true" muted="true" loop="true" >}}
+
+{{% /col %}}
+
+{{% /multicol %}}
 
 {{% /section %}}
+
