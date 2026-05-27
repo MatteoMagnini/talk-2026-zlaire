@@ -375,6 +375,7 @@ The framework resolves dilemmas through:
 
 ---
 
+<!--
 ## Moral agreements
 
 Jiminy proposes three complementary mechanisms:
@@ -399,6 +400,7 @@ At the abstract level, these mechanisms correspond to:
 within the argumentation framework.
 
 ---
+-->
 
 ## Explainability
 
@@ -433,9 +435,95 @@ Therefore, DJ4ME includes an additional agent dedicated to making decisions:
 
 ---
 
-# AI4Kids
+## AI4Kids
 
-TODO: talk about the AI4Kids project.
+### Safe child-facing embodied AI
+
+{{% multicol %}}
+
+{{% col %}}
+
+<br>
+<br>
+
+Children are increasingly exposed to:
+- __conversational AI__
+- __tutoring systems__
+- social robots
+
+However, most existing AI systems are designed for adults.
+
+{{% /col %}}
+
+{{% col %}}
+
+<br>
+<br>
+
+This is particularly problematic in sensitive domains such as:
+- __education__
+- __therapy__
+- special needs support
+
+where safety, trust, and controllability become essential requirements.
+
+{{% /col %}}
+
+{{% col %}}
+
+{{< image src="./images/qtrobot.webp" alt="QTrobot" width="80%" >}}
+
+<div align="center">
+
+QTrobot from
+[LuxAI](https://luxai.com/)
+
+</div>
+
+{{% /col %}}
+
+{{% /multicol %}}
+
+---
+
+## A norm-first architecture
+
+AI4Kids investigates how to __safely integrate LLMs__ into embodied agents.
+
+Core idea: LLMs should not operate autonomously, but inside a constrained cognitive architecture.
+
+{{% multicol %}}
+
+{{% col %}}
+
+The project develops a __norm-first agent architecture__ where:
+- LLMs provide flexible dialogue capabilities
+- __Norms constrain the reasoning cycle__
+- Machine-readable policies enforce safety checks
+
+{{% /col %}}
+
+{{% col %}}
+
+This enables behavior that is:
+- __Explainable__
+- __Auditable__
+- Regulation-aware
+- Compliant-by-design
+
+{{% /col %}}
+
+{{% col %}}
+
+Research challenges:
+- Age-appropriate dialogue
+- __Safe interaction__
+- Controllability
+- Robustness against unsafe outputs
+
+{{% /col %}}
+
+{{% /multicol %}}
 
 {{% /section %}}
 
