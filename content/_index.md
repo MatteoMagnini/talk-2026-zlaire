@@ -310,7 +310,7 @@ Effective AI → Responsible AI → Defensible AI
 
 ### A DJ for Machine Ethics: the Dialogue Jiminy
 
-{{< image src="./images/dj4me.png" alt="DJ4ME" width="80%" >}}
+{{< image src="./images/dj4me.png" alt="DJ4ME" width="15%" >}}
 
 {{% multicol class="multicol-centered"%}}
 
@@ -467,7 +467,7 @@ where safety, trust, and controllability become essential requirements.
 
 {{% col %}}
 
-{{< image src="./images/qtrobot.webp" alt="QTrobot" width="80%" >}}
+{{< image src="./images/qtrobot.webp" alt="QTrobot" width="15%" >}}
 
 <div align="center">
 
@@ -611,7 +611,7 @@ As a consequence:
 
 <br>
 
-{{% multicol class="multicol-centered"%}}
+{{% multicol class="multicol-centered" %}}
 
 {{% col %}}
 
@@ -652,7 +652,7 @@ These agents must interact safely and naturally with humans in dynamic social co
 
 We all know the reasons why we need __agents__ and not just __passive tools__.
 
-{{% multicol class="multicol-centered"%}}
+{{% multicol class="multicol-centered" %}}
 
 {{% col %}}
 
@@ -678,36 +678,18 @@ ___
 
 ## Collection of robots I saw in Hangzhou
 
-{{% multicol %}}
 
-{{% col %}}
+{{< image src="./images/coffee-robot.png" alt="Coffee robot" width="15%" >}}
 
-{{< image src="./images/coffee-robot.png" alt="Coffee robot" weight="60%" >}}
+{{< image src="./images/food-delivery-robot.png" alt="Food delivery robot" width="15%" >}}
 
+{{< image src="./images/agriculture-robot.png" alt="Agriculture robot" width="15%" >}}
 
-{{< image src="./images/food-delivery-robot.png" alt="Food delivery robot" weight="60%" >}}
+{{< image src="./images/dog-robot.png" alt="Dog robot" width="15%" >}}
 
-{{% /col %}}
+{{< image src="./images/space-explorer.jpg" alt="Space explorer robot" width="15%" >}}
 
-{{% col %}}
-
-{{< image src="./images/agriculture-robot.png" alt="Agriculture robot" weight="60%" >}}
-
-
-{{< image src="./images/dog-robot.png" alt="Dog robot" weight="60%" >}}
-
-{{% /col %}}
-
-{{% col %}}
-
-{{< image src="./images/space-explorer.jpg" alt="Space explorer robot" weight="60%" >}}
-
-
-{{< video src="./videos/barman-robot.MOV" alt="Barman robot" weight="60%" autoplay="true" muted="true" loop="true" >}}
-
-{{% /col %}}
-
-{{% /multicol %}}
+{{< image src="./images/barman-robot.png" alt="Barman robot" width="15%" >}}
 
 {{% /section %}}
 
