@@ -19,7 +19,7 @@ outputs = ["Reveal"]
 <br> University of Luxembourg
 
 <br>ZLAIRE Workshop
-<br>28th May 2026, Zhejiang University, Hangzhou
+<br>30th May 2026, Zhejiang University, Hangzhou
 
 <br>
 
@@ -310,7 +310,7 @@ Effective AI → Responsible AI → Defensible AI
 
 ### A DJ for Machine Ethics: the Dialogue Jiminy
 
-{{< image src="./images/dj4me.png" alt="DJ4ME" width="15%" >}}
+{{< image src="./images/dj4me.png" alt="DJ4ME" width="90%" >}}
 
 {{% multicol class="multicol-centered"%}}
 
@@ -467,7 +467,7 @@ where safety, trust, and controllability become essential requirements.
 
 {{% col %}}
 
-{{< image src="./images/qtrobot.webp" alt="QTrobot" width="15%" >}}
+{{< image src="./images/qtrobot.webp" alt="QTrobot" width="90%" >}}
 
 <div align="center">
 
@@ -715,7 +715,7 @@ Lifecycle
 
 {{% col %}}
 
-Tempo
+__Tempo__
 - Fast 
 - Slow
 
@@ -731,7 +731,7 @@ Locus
 
 {{% col %}}
 
-Substrate
+__Substrate__
 - Subsymbolic
 - Symbolic 
 
