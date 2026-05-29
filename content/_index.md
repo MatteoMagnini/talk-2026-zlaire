@@ -693,3 +693,60 @@ ___
 
 {{% /section %}}
 
+---
+
+{{% section %}}
+
+{{< slide id="how-to-do-it" >}}
+
+# Great, but how?
+
+## 5 dimensions
+
+{{% multicol %}}
+
+{{% col %}}
+
+Lifecycle
+- Offline
+- Online
+
+{{% /col %}}
+
+{{% col %}}
+
+Tempo
+- Fast 
+- Slow
+
+{{% /col %}}
+
+{{% col %}}
+
+Locus
+- Individual
+- Collective
+
+{{% /col %}}
+
+{{% col %}}
+
+Substrate
+- Subsymbolic
+- Symbolic 
+
+{{% /col %}}
+
+{{% col %}}
+
+Stage
+- pre-action
+- in-action
+- post-action
+
+{{% /col %}}
+
+{{% /multicol %}}
+
+{{% /section %}}
+
