@@ -707,46 +707,190 @@ ___
 
 {{% col %}}
 
-Lifecycle
-- Offline
-- Online
+### Lifecycle
+- offline
+- online
+
+<br>
+
+Learning does not stop after deployment.
+
+Embodied agents must continuously:
+- adapt
+- update beliefs
+- refine behaviors
 
 {{% /col %}}
 
 {{% col %}}
 
-__Tempo__
-- Fast 
-- Slow
+### __Tempo__
+- fast
+- slow
+
+<br>
+
+Different decisions require different reasoning speeds.
 
 {{% /col %}}
 
 {{% col %}}
 
-Locus
-- Individual
-- Collective
+### Locus
+- individual
+- collective
+
+<br>
+
+Future AI will increasingly involve:
+- coordination
+- negotiation
+- collective intelligence
 
 {{% /col %}}
 
 {{% col %}}
 
-__Substrate__
-- Subsymbolic
-- Symbolic 
+### __Substrate__
+- subsymbolic
+- symbolic
+
+<br>
+
+Neither paradigm alone appears sufficient.
 
 {{% /col %}}
 
 {{% col %}}
 
-Stage
+### Stage
 - pre-action
 - in-action
 - post-action
 
+<br>
+
+Reasoning may happen:
+- before acting
+- while acting
+- after acting
+
 {{% /col %}}
 
 {{% /multicol %}}
+
+---
+
+## Thinking Fast and Slow
+
+Inspired by Kahneman's dual-process theory.
+
+{{% multicol class="multicol-centered" %}}
+
+{{% col %}}
+
+### System 1
+__Fast__, reactive, intuitive.
+
+- neural inference
+- __pattern recognition__
+- reflexive behaviors
+- low-latency decisions
+
+
+{{% /col %}}
+
+{{% col %}}
+
+### System 2
+__Slow__, deliberative, __symbolic__.
+
+- planning
+- ethical reasoning
+- explanation
+- normative reasoning
+- long-term goals
+
+{{% /col %}}
+
+{{% /multicol %}}
+
+<br>
+
+Defensible embodied agents require both.
+
+---
+
+## Beyond System 1 and System 2
+
+Embodied systems introduce an additional layer: __System 0__.
+
+A purely reactive safety layer operating below deliberation.
+
+<br>
+
+Analogy with humans:
+- removing the hand from fire
+- reflexive motor reactions
+- automatic physiological responses
+
+These actions happen:
+- before conscious reasoning
+- without explicit deliberation
+
+---
+
+## System 0 in embodied AI
+
+For embodied agents, System 0 may include:
+- __emergency braking__
+- collision avoidance
+- low-level safety constraints
+- __hardware interrupts__
+- reflexive stabilization behaviors
+
+<br>
+
+Key property: __safety must not depend on slow reasoning alone__.
+
+System 0 acts as a hard real-time protective layer.
+
+---
+
+## Towards hybrid architectures
+
+Future embodied agents will likely combine:
+
+{{% multicol class="multicol-centered" %}}
+
+{{% col %}}
+
+### Subsymbolic components
+- perception
+- language
+- sensor fusion
+- motor control
+- pattern recognition
+
+{{% /col %}}
+
+{{% col %}}
+
+### Symbolic components
+- planning
+- norms
+- argumentation
+- coordination
+- explainability
+- governance
+
+{{% /col %}}
+
+{{% /multicol %}}
+
+<br>
+
+It will be crucial to design effective neuro-symbolic frameworks that integrate these components while ensuring safety and accountability.
 
 {{% /section %}}
 
