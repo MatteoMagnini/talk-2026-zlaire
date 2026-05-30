@@ -64,6 +64,8 @@ Slides are structured as follows:
 
 - [Why agents?](#why-agents)
 
+- [Great, but how?](#great-but-how)
+
 {{% /section %}}
 
 ---
